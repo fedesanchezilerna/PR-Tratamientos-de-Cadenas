@@ -9,7 +9,6 @@
  */
 package excercises;
 
-import utils.ScannerUtils;
 import utils.StringUtils;
 
 public class Exercise5 {

@@ -37,25 +37,6 @@ public class ScannerUtils {
         return number;
     }
 
-    /**
-     * Read a Double safely.
-     * @return Double introduced by user.
-     */
-    public static double readDouble() {
-        double number;
-        while (true) {
-            String input = scanner.nextLine();
-            try {
-                number = Double.parseDouble(input);
-                break;
-            } catch (NumberFormatException e) {
-                System.out.println("Invalid input. This is not a Double number mate :(");
-                System.out.print("Please, introduce a Double: ");
-            }
-        }
-        return number;
-    }
-
     public static void closeScanner() {
         scanner.close();
     }
