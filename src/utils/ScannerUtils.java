@@ -38,7 +38,7 @@ public class ScannerUtils {
     }
 
     /**
-     * Read an Double safely.
+     * Read a Double safely.
      * @return Double introduced by user.
      */
     public static double readDouble() {
@@ -54,10 +54,6 @@ public class ScannerUtils {
             }
         }
         return number;
-    }
-
-    public static String getAlphaNumericString() {
-        return ScannerUtils.getScanner().nextLine().toLowerCase().replaceAll("[^a-z0-9]", "");
     }
 
     public static void closeScanner() {

@@ -17,10 +17,12 @@ public class Exercise6 {
         int divisor = text.indexOf(',');
 
         String firstPart = text.substring(0, divisor);
-        String secondPart = text.substring(divisor + 2);
+        String secondPart = text.substring(divisor + 1);
+        String concatenatedText = firstPart.concat(secondPart);
 
         System.out.println("Original Text: " + text);
         System.out.println("Primera parte: \"" + firstPart + "\"");
-        System.out.println("Segunda parte: \"" + secondPart + "\"\n");
+        System.out.println("Segunda parte: \"" + secondPart + "\"");
+        System.out.println("Text concatenated: " + concatenatedText);
     }
 }

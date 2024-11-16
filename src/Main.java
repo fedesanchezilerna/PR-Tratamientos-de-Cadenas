@@ -56,30 +56,39 @@ public class Main {
                 break;
             case 7:
                 runExerciseMsg(exerciseNum);
+                Exercise7.toUpperAndLowerCase();
                 break;
             case 8:
                 runExerciseMsg(exerciseNum);
+                Exercise8.textComparator();
                 break;
             case 9:
                 runExerciseMsg(exerciseNum);
+                Exercise9.substituteVocalEtoA();
                 break;
             case 10:
                 runExerciseMsg(exerciseNum);
+                Exercise10.textToASCII();
                 break;
             case 11:
                 runExerciseMsg(exerciseNum);
+                Exercise11.largestWord();
                 break;
             case 12:
                 runExerciseMsg(exerciseNum);
+                Exercise12.wordsCounter();
                 break;
             case 13:
                 runExerciseMsg(exerciseNum);
+                Exercise13.spainPhoneFormat();
                 break;
             case 14:
                 runExerciseMsg(exerciseNum);
+                Exercise14.textMixer();
                 break;
             case 15:
                 runExerciseMsg(exerciseNum);
+                Exercise15.wordsAnalysis();
                 break;
             default:
                 System.out.println("Undefined exercise.");
@@ -103,7 +112,7 @@ public class Main {
                 resume = true;
                 break;
             default:
-                System.out.println("Returning to the main menu");
+                System.out.println("Invalid option. Closing program.");
         }
     }
 }

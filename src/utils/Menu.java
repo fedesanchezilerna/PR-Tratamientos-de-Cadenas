@@ -16,21 +16,21 @@ public class Menu {
                 ===============================
                 MAIN MENU
                 Select an exercise:
-                1.  Text Length.
-                2.  Crumble Text.
-                3.  Text Inverter.
-                4.  Spaces Remover.
-                5.  Vocal/Consonant Counter.
+                1.  Text Length
+                2.  Crumble Text
+                3.  Text Inverter
+                4.  Spaces Remover
+                5.  Vocal/Consonant Counter
                 6.  Text Divider
-                7.  
-                8.  
-                9.  
-                10. 
-                11. 
-                12. 
-                13. 
-                14. 
-                15. 
+                7.  Text to UpperCase and LowerCase
+                8.  Compare JAVA - JavaScript
+                9.  "JEVE to JAVA"
+                10. Text to ASCII
+                11. Largest Word in text
+                12. Words Counter
+                13. Spain Phone Number Format
+                14. Text Mixer
+                15. Text Length % in text
                 ===============================
                 """);
     }

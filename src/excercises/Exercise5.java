@@ -10,12 +10,13 @@
 package excercises;
 
 import utils.ScannerUtils;
+import utils.StringUtils;
 
 public class Exercise5 {
 
     public static void vocalsCounter() {
         System.out.println("Write a text to count its vocals and consonants: ");
-        String text = ScannerUtils.getAlphaNumericString();
+        String text = StringUtils.getAlphaNumericString();
         int textLength = text.length();
         int vocalCounter = 0;
         int consonantCounter = 0;
@@ -30,4 +31,5 @@ public class Exercise5 {
         System.out.println("Number of vocals in the text:     " + vocalCounter);
         System.out.println("Number of consonants in the text: " + consonantCounter);
     }
+
 }

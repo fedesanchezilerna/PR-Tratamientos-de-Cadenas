@@ -10,13 +10,14 @@
 package excercises;
 
 import utils.ScannerUtils;
+import utils.StringUtils;
 
 public class Exercise4 {
 
     public static void removeSpaces() {
         System.out.println("Write a text to remove its spaces: ");
         String text = ScannerUtils.getScanner().nextLine();
-        String textWithoutSpaces = ScannerUtils.getAlphaNumericString();
+        String textWithoutSpaces = StringUtils.getAlphaNumericString();
         System.out.println("Your original text:  " + text);
         System.out.println("Text without spaces: " + textWithoutSpaces );
     }
