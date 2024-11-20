@@ -11,15 +11,18 @@ package excercises;
 
 import utils.ScannerUtils;
 
+import java.util.Arrays;
+
 public class Exercise12 {
 
     public static void wordsCounter() {
         System.out.println("Write something: ");
-        String text = ScannerUtils.getScanner().nextLine();
+        String text = ScannerUtils.getScanner().nextLine().trim();
 
-        String[] words = text.split(" ");
+        String[] words = text.split("\\s+");
         int numberOfWords = words.length;
 
         System.out.println("Number of words: " + numberOfWords);
+        System.out.println(Arrays.toString(words));
     }
 }
