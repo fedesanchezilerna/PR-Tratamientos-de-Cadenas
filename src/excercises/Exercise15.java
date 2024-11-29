@@ -17,7 +17,7 @@ public class Exercise15 {
         System.out.println("Write a beautiful text: ");
         String userText = ScannerUtils.getScanner().nextLine();
 
-        String[] words = userText.split("\\s");
+        String[] words = userText.split("\\s+");
         int totalWords = words.length;
         int shortWordsCounter = 0;
         int longWordsCounter = 0;

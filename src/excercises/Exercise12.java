@@ -16,10 +16,10 @@ import java.util.Arrays;
 public class Exercise12 {
 
     public static void wordsCounter() {
-        System.out.println("Write something: ");
+        System.out.println("Write something beautiful: ");
         String text = ScannerUtils.getScanner().nextLine().trim();
 
-        String[] words = text.split("\\s+");
+        String[] words = text.split("\\s+"); // Regex "\\s+" contemplate every kind of spaces
         int numberOfWords = words.length;
 
         System.out.println("Number of words: " + numberOfWords);
