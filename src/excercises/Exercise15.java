@@ -35,8 +35,8 @@ public class Exercise15 {
         double shortPercentage = ((double) shortWordsCounter / totalWords) * 100;
         double longPercentage = ((double) longWordsCounter / totalWords) * 100;
 
-        System.out.println("\n");
-        System.out.printf("Less than 5 character words percentage: %.2f\n", shortPercentage);
-        System.out.printf("More than 5 character words percentage: %.2f\n", longPercentage);
+        System.out.println("\n Total words: " + totalWords);
+        System.out.printf("Less than 5 character words percentage: %.2f%% ~ %d Short words.\n", shortPercentage, shortWordsCounter);
+        System.out.printf("More than 5 character words percentage: %.2f%% ~ %d Long words.\n", longPercentage, longWordsCounter);
     }
 }
