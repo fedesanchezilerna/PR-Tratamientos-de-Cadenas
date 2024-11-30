@@ -11,6 +11,9 @@ package excercises;
 
 import utils.ScannerUtils;
 
+/**
+ * Muestra la longitud del texto: “This is JAVA!”
+ */
 public class Exercise1 {
 
         public static void textLength() {

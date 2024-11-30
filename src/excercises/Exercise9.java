@@ -9,6 +9,10 @@
  */
 package excercises;
 
+/**
+ * Sobre la cadena de texto “JEVE JEVE JEVE”, sustituye/reemplaza todas las vocales e
+ * por la vocal a dando como resultado “JAVA JAVA JAVA”.
+ */
 public class Exercise9 {
 
     public static void substituteVocalEtoA() {

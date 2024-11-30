@@ -13,6 +13,9 @@ import utils.ScannerUtils;
 
 import java.util.Arrays;
 
+/**
+ * Se leerá una frase y se debe contar y mostrar cuántas palabras contiene esa frase.
+ */
 public class Exercise12 {
 
     public static void wordsCounter() {

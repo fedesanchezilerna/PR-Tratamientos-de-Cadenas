@@ -11,6 +11,10 @@ package excercises;
 
 import utils.ScannerUtils;
 
+/**
+ * Se leerá un texto largo, y deberás indicar el porcentaje de palabras que tienen menos
+ * de 5 caracteres y el porcentaje de palabras con 5 o más caracteres.
+ */
 public class Exercise15 {
 
     public static void wordsAnalysis() {

@@ -11,6 +11,10 @@ package excercises;
 
 import utils.StringUtils;
 
+/**
+ * Cuenta las vocales y las consonantes del String: “JAVA JAVA JAVA”. Cuidado con los
+ * espacios.
+ */
 public class Exercise5 {
 
     public static void vocalsCounter() {

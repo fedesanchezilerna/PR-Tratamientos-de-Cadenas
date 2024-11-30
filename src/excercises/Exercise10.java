@@ -9,6 +9,10 @@
  */
 package excercises;
 
+/**
+ * Transforma la cadena de caracteres del String: “ABCD” a ASCII. Para ello debes
+ * desglosar la cadena y transformar cada carácter a ASCII.
+ */
 public class Exercise10 {
 
     public static void textToASCII() {

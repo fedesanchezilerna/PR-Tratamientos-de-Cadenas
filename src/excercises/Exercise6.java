@@ -9,6 +9,12 @@
  */
 package excercises;
 
+/**
+ * Divide la cadena de texto “Este es el módulo, de programación” en dos partes: “Este
+ * es el módulo” y “de programación”.
+ * Muéstralas por separado, y después, vuelve a concatenarlas y vuelve a mostrarlas
+ * unidas.
+ */
 public class Exercise6 {
 
     public static void textDividing(){

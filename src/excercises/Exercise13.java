@@ -11,6 +11,12 @@ package excercises;
 
 import utils.ScannerUtils;
 
+/**
+ * Se leerá un número de teléfono en formato cadena, y se debe convertir de la
+ * siguiente manera:
+ * Número recibido: 34644683430
+ * Nueva cadena: (+34) 644 683 430
+ */
 public class Exercise13 {
 
     public static void spainPhoneFormat() {

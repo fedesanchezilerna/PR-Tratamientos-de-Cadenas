@@ -11,6 +11,10 @@ package excercises;
 
 import utils.ScannerUtils;
 
+/**
+ * Hacer un programa que al recibir como datos dos cadenas de caracteres, forme una
+ * cadena intercalando los caracteres de las palabras de las cadenas recibidas.
+ */
 public class Exercise14 {
 
     public static void textMixer() {

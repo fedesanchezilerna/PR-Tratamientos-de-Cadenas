@@ -13,6 +13,10 @@ import utils.ScannerUtils;
 
 import java.util.Arrays;
 
+/**
+ * Se leerá una frase y se debe encontrar la palabra de mayor longitud. El programa
+ * imprimirá la palabra y el número de caracteres de la misma.
+ */
 public class Exercise11 {
 
     public static void largestWord() {

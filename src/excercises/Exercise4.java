@@ -12,6 +12,9 @@ package excercises;
 import utils.ScannerUtils;
 import utils.StringUtils;
 
+/**
+ * Elimina los espacios del texto: “Tratamiento de cadenas con JAVA”
+ */
 public class Exercise4 {
 
     public static void removeSpaces() {

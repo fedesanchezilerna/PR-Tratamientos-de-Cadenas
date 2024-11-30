@@ -9,6 +9,10 @@
  */
 package excercises;
 
+/**
+ * Transforma la cadena de texto “ilerna” a mayúsculas. Guarda el valor en la variable y
+ * posteriormente conviértela nuevamente en minúsculas.
+ */
 public class Exercise7 {
 
     public static void toUpperAndLowerCase() {

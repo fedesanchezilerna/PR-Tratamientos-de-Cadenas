@@ -9,6 +9,9 @@
  */
 package excercises;
 
+/**
+ * Compara si el String “JAVA” es igual que el String “JavaScript” y muestra el resultado.
+ */
 public class Exercise8 {
 
     public static void textComparator() {

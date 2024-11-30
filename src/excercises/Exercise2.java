@@ -11,6 +11,14 @@ package excercises;
 
 import utils.ScannerUtils;
 
+/**
+ * Desmenuza el String “JAVA” mostrándolo por pantalla carácter a carácter.
+ * La consola debe mostrar:
+ * J
+ * A
+ * V
+ * A
+ */
 public class Exercise2 {
 
     public static void crumbleText() {
